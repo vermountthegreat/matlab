@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+n = -4:4;
+y = [zeros(1,4), ones(1,5)];
+stem(y, 'LineWidth', 3);
+axis([-1 11 -1.5 1.5]);
+grid on;
+xlabel('n Samples');
+ylabel('Amplitude');
+title('Unit Step Function - 22BLC1221');

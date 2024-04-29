@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+x = -pi:0.5:pi;
+y = sign(x);
+stem(x, y, 'LineWidth', 3);
+axis([-4 4 -1.5 1.5]);
+grid on;
+xlabel('n Samples');
+ylabel('Amplitude');
+title('Discretized Signum Function - 22BLC1221');

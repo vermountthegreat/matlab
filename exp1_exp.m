@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+x = 0:10;
+y = exp(x);
+stem(x, y, 'LineWidth', 3), grid on;
+axis([-1.5 12 -1 1.5]);
+xlabel('n Samples');
+ylabel('Amplitude');
+title(['Exponential Function - 22BLC1221']);

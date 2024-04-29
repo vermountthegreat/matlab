@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+x = -pi:0.01:pi;
+z = cos(x);
+subplot(212);
+plot(x, z, 'LineWidth', 3), grid on;
+axis([-4 4 -1.5 1.5]);
+xlabel('Seconds');
+ylabel('Amplitude');
+title('Cosine Wave - 22BLC1221');

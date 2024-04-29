@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+n = 0:10;
+stem(n, n, 'LineWidth', 3);
+axis([-1 11 -1.5 12]);
+grid on;
+xlabel('n Samples');
+ylabel('Amplitude');
+title('Unit Ramp Signal - 22BLC1221');

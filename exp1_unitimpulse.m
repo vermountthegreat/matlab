@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+n = (-1:0.1:1);
+ui = n==0;
+stem(n, ui, 'LineWidth', 3);
+axis([-1.5 1.5 -1.5 1.5]);
+grid on;
+xlabel('n Samples');
+ylabel('Amplitude');
+title('Unit Impulse Function - 22BLC1221');
